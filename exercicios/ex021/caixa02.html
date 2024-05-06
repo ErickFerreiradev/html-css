@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tag</title>
+    <style>
+        body{
+            background-color: rgb(55, 80, 80);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        footer{
+            background-color: black;
+            text-align: center;
+            color: white;
+            margin: 10px;
+            padding: 1px;
+            border-radius: 10px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+        article{
+            background-color: rgb(151, 151, 151);
+            padding: 5px;
+    
+        }
+        article > aside{
+            background-color: rgb(99, 119, 119);
+        }
+        nav{
+            background-color: rgb(62, 115, 139);
+            margin: 10px;
+            padding: 10px;
+            box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.514);
+        }
+        nav > a {
+            text-decoration: none;
+            margin-right: 10px;
+            font-weight: bolder;
+            color: white;
+            
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            
+        }
+        nav > a:active{
+            color:rgb(29, 29, 88);
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Cinema Teatro</p>
+
+        </section>
+        <section id="notícias">
+            <article>
+
+            </article>
+            <article>
+                <h2>Notícia do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quia quae amet nihil optio aliquid suscipit sed laboriosam nostrum asperiores, nobis quaerat eius, tempore error quas cum at explicabo cumque?</p>
+                <aside>
+                    <p>Escrito por Erick</p>
+
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvidor pelo CursoemVideo</p>
+
+    </footer>
+
+</body>
+</html>
